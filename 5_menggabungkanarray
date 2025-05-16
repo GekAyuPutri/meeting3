@@ -1,0 +1,16 @@
+<?php
+$array1 = [1, 2, 3];
+$array2 = [4, 5, 6];
+$gabungan = [];
+
+foreach ($array1 as $a) {
+    array_push($gabungan, $a);
+}
+
+foreach ($array2 as $b) {
+    array_push($gabungan, $b);
+}
+
+echo "Array gabungan: ";
+print_r($gabungan);
+?>
